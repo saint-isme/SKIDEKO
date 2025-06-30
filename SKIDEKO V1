@@ -1,5 +1,3 @@
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("skideko v1 skidded by val (SKIDSTER_VXX)")
-
 local ShowMessage = function(t, txt, dur)
     pcall(function()
         game.StarterGui:SetCore("SendNotification", {
@@ -2242,3 +2240,4 @@ ImageButton1.MouseButton1Click:Connect(simulateKeyPress1)
 -- Connect the click event to the second button
 ImageButton2.MouseButton1Click:Connect(simulateKeyPress2)
 end)
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("SKIDEKO skidded by val (SKIDSTER_VXX)")
